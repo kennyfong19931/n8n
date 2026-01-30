@@ -1,4 +1,4 @@
-FROM n8nio/n8n:2.3.6
+FROM n8nio/n8n:2.4.8
 
 # Copy apk and its deps from Alpine
 COPY --from=alpine /sbin/apk /sbin/apk
